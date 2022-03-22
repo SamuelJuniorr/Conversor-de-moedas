@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/dinheiro_1277_1280x1024.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+.page-title {
+    background-image: linear-gradient(to bottom, rgb(226, 214, 214), rgba(197, 168, 1, 0.671));
+    display: inline-block;
+    font-size: 3.2em;
+    font-style: oblique;
+    color: #000000;
+    margin: 0 0 5px;
+}
+
+input {
+  margin: 20px;
+  padding: 6px;
+  border-radius: 15px;
+}
+
+label {
+    background-image: linear-gradient(to top, rgb(226, 214, 214), rgba(197, 168, 1, 0.671));
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:10px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    background: white;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 18px;
+    background-color:rgb(3, 151, 3);
+    color:white;
+}
+h2 {
+    color: #fafaf6;
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: white;
+    color: black;
+}
